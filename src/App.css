@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 .background {
   color: white;
   position: relative;
@@ -77,10 +80,13 @@
     padding: 12px;
   }
   .background {background-image: url('../public/mobile.jpg');
-  background-size: cover;}
+    overflow: hidden;
+  background-size: cover;
+background-position: top;}
   .content{
     justify-content: center;
-    top: 15%;
+    overflow: hidden;
+    top: 17%;
     left: 0;
     right: 0;
     text-align: center;
@@ -99,5 +105,8 @@
   .num {
     font-size: 48px;
     line-height: 48px;
+  }
+  .mood {
+    display: none;
   }
 }
